@@ -10,6 +10,7 @@
 
 </head>
 <body>
+<!-- *****************Header************** -->
 @include('layots.header')
 
 <!-- ***************content****************************** -->
@@ -18,7 +19,7 @@
     @yield('content')
 
 </main>
-
+<!-- ******************footer************************ -->
 @include('layots.footer')
 
 <link rel="stylesheet" href='css/style.css'>

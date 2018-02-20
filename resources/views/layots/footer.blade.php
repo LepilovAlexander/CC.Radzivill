@@ -1,4 +1,3 @@
-<!-- ******************footer************************ -->
 <footer>
     <div class="footer" id="footer">
         <div class="container justify-content-end">

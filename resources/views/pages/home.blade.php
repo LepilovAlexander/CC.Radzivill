@@ -152,7 +152,7 @@
 
 
         <div class="container">
-            <h2 class="pt-4 pb-3 text-white wow rotateIn" data-wow-offset="150"">Курсы бухгалтерів</h2>
+            <h2 class="pt-4 pb-3 text-white wow rotateIn" data-wow-offset="150">Курсы бухгалтерів</h2>
 
             <div class="row">
                 <div class="list-group p-3">

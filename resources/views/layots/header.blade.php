@@ -1,24 +1,26 @@
-<!-- *****************Header************** -->
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary border-b ">
 
-        <a href="home" class="navbar-brand wow bounceInLeft">
+        <a href="/" class="navbar-brand wow bounceInLeft">
             <figure>
-                <img src='img/logo.png' alt="ТОВ КОНСАЛТІНГОВА КОМПАНІЯ РАДЗІВІЛЛ" width="280" height="100">
+                <img src='img/nlogo.png' alt="ТОВ КОНСАЛТІНГОВА КОМПАНІЯ РАДЗІВІЛЛ" width="280" height="100">
             </figure>
         </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle naviagation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle naviagation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a href="home" class="nav-link wow bounceInLeft" data-wow-delay="0.2s">Головна</a>
+                <li <? if ($active == 'home'): ?> class="nav-item active" <? else: ?> class="nav-item"<? endif ?>>
+                    <a href="/" class="nav-link wow bounceInLeft" data-wow-delay="0.2s">Головна</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle wow bounceInLeft" data-wow-delay="0.4s" href="/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <li <? if ($active == 'accounting' or $active == 'juristic' or $active == 'personnel' or $active == 'development' or $active == 'holidays'): ?> class="nav-item dropdown active"
+                    <? else: ?> class="nav-item dropdown"<? endif ?>>
+                    <a class="nav-link dropdown-toggle wow bounceInLeft" data-wow-delay="0.4s" href="/"
+                       id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Послуги
                     </a>
                     <div class="dropdown-menu dropdown-menu-center" aria-labelledby="navbarDropdownMenuLink">
@@ -29,10 +31,10 @@
                         <a class="dropdown-item blue-bg" href="holidays">Відпустка на 1-2-3!</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li <? if ($active == 'courses'): ?> class="nav-item active"<? else: ?> class="nav-item"<? endif ?>>
                     <a href="courses" class="nav-link wow bounceInLeft" data-wow-delay="0.6s">Курси бухгалтерів</a>
                 </li>
-                <li class="nav-item">
+                <li <? if ($active == 'contacts'): ?> class="nav-item active"<? else: ?> class="nav-item"<? endif ?>>
                     <a href="contacts" class="nav-link wow bounceInLeft" data-wow-delay="0.8s">Контакти</a>
                 </li>
             </ul>
@@ -63,11 +65,14 @@
                     </div>
 
                     <div class="form-group">
-                        <textarea class="form-control" id="massage" rows="5" name="massage" placeholder="Повідомлення"></textarea>
+                        <textarea class="form-control" id="massage" rows="5" name="massage"
+                                  placeholder="Повідомлення"></textarea>
                     </div>
 
                 </form>
-                <div class="modal-footer"><button type="submit" id="send" name="send_message" class="btn btn-info">Відправити</button></div>
+                <div class="modal-footer">
+                    <button type="submit" id="send" name="send_message" class="btn btn-info">Відправити</button>
+                </div>
             </div>
         </div>
     </div>
