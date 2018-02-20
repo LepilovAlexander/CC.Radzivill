@@ -49,7 +49,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12"><img class="d-flex mr-3 wow pulse"
                                                                           data-wow-offset="200"
-                                                                          src="<?= base_url() ?>img/juristic/about-juristic-1.jpg"
+                                                                          src="img/juristic/about-juristic-1.jpg"
                                                                           alt="Generic placeholder image">
                             </div>
                             <div class="col-sm-12">
@@ -85,7 +85,7 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-12">
                                 <img class="d-flex mr-3 wow pulse" data-wow-offset="200"
-                                     src="<?= base_url() ?>img/juristic/about-juristic-2.jpg"
+                                     src="img/juristic/about-juristic-2.jpg"
                                      alt="Generic placeholder image">
                             </div>
 
@@ -140,7 +140,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12">
                                 <img class="d-flex mr-3 wow pulse" data-wow-offset="200"
-                                     src="<?= base_url() ?>img/juristic/about-juristic-3.jpg"
+                                     src="img/juristic/about-juristic-3.jpg"
                                      alt="Generic placeholder image">
                             </div>
                             <div class="col-12">
@@ -170,7 +170,7 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-12">
                                 <img class="d-flex mr-3 wow pulse col-sm-12" data-wow-offset="200"
-                                     src="<?= base_url() ?>img/juristic/about-juristic-4.jpg"
+                                     src="img/juristic/about-juristic-4.jpg"
                                      alt="Generic placeholder image">
                             </div>
                             <div class="col-lg-8 col-md-6 col-sm-12">
@@ -272,7 +272,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12">
                                 <img class="d-flex mr-3 wow pulse col-sm-12" data-wow-offset="200"
-                                     src="<?= base_url() ?>img/juristic/about-juristic-5.jpg"
+                                     src="img/juristic/about-juristic-5.jpg"
                                      alt="Generic placeholder image">
                             </div>
                             <div class="col-12">
@@ -309,7 +309,7 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-12">
                                 <img class="d-flex mr-3 wow pulse col-sm-12" data-wow-offset="200"
-                                     src="<?= base_url() ?>img/juristic/about-juristic-6.jpg"
+                                     src="img/juristic/about-juristic-6.jpg"
                                      alt="Generic placeholder image">
                             </div>
 
@@ -435,7 +435,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-12">
                                     <img class="d-flex mr-3 wow pulse col-sm-12" data-wow-offset="200"
-                                         src="<?= base_url() ?>img/juristic/about-juristic-7.jpg"
+                                         src="img/juristic/about-juristic-7.jpg"
                                          alt="Generic placeholder image">
                                 </div>
                             </div>
@@ -449,7 +449,7 @@
                                 <div class="row">
                                     <div class="col-lg-4 col-md-6 col-sm-12">
                                         <img class="d-flex mr-3 wow pulse col-sm-12" data-wow-offset="200"
-                                             src="<?= base_url() ?>img/juristic/about-juristic-3.jpg"
+                                             src="img/juristic/about-juristic-3.jpg"
                                              alt="Generic placeholder image">
                                     </div>
                                     <div class="col-lg-8 col-md-6 col-sm-12">

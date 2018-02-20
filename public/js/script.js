@@ -96,9 +96,3 @@ function toggleBounce() {
     marker.setAnimation(google.maps.Animation.BOUNCE);
   }
 }
-Skype.ui({
- "name": "dropdown",
- "element": "SkypeButton_Call_radzivill777_1",
- "participants": ["radzivill777"],
- "imageSize": 32
-});

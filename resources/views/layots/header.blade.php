@@ -3,7 +3,7 @@
 
         <a href="/" class="navbar-brand wow bounceInLeft">
             <figure>
-                <img src='img/nlogo.png' alt="ТОВ КОНСАЛТІНГОВА КОМПАНІЯ РАДЗІВІЛЛ" width="280" height="100">
+                <img src='img/nlogo.png' alt="ТОВ КОНСАЛТІНГОВА КОМПАНІЯ РАДЗІВІЛЛ" width="290" height="100">
             </figure>
         </a>
 
