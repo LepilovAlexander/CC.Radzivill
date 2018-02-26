@@ -12,6 +12,8 @@
 <body>
 <!-- *****************Header************** -->
 @include('layots.header')
+ {{----------------------sendmail modal window-------------------}}
+@include('layots.mail')
 
 <!-- ***************content****************************** -->
 <main>
@@ -28,6 +30,7 @@
 <link rel="stylesheet" href='css/bootstrap.min.css'>
 <!-- fonts -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+{{--<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>--}}
 <!-- Animate CSS + WoW.JS -->
 <link rel="stylesheet" href='css/animate.css'>
 <script src='js/wow.min.js'></script>

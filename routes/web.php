@@ -9,3 +9,4 @@ Route::get('development', 'MainController@development');
 Route::get('holidays', 'MainController@holidays');
 Route::get('courses', 'MainController@courses');
 Route::get('contacts', 'MainController@contacts');
+Route::post('send-mail', 'MailSetting@send_form');

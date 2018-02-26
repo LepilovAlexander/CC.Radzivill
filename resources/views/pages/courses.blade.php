@@ -708,12 +708,14 @@
 
                 <ul class="list-group text-center text-white w-100 wow pulse" data-wow-offset="100">
                     <!-- table 1 -->
-                    <a class="list-group-item list-group-item-info list-group-item-action text-dark">
-                        Вартість послуг для Юридичних та Фізичних осіб на єдиному податку без ПДВ
+                    <a class="list-group-item list-group-item-info list-group-item-action text-dark"
+                       data-toggle="collapse"
+                       href="#collapseTable1" aria-expanded="false" aria-controls="collapseTable1">
+                        <h5>Вартість послуг для Юридичних та Фізичних осіб на єдиному податку без ПДВ</h5>
                     </a>
 
 
-                    <div>
+                    <div class="collapse" id="collapseTable1">
                         <div class="card card-block">
                             <div class="table-responsive-sm">
                                 <table class="table bg-info text-white table-bordered text-center rounded">
@@ -803,114 +805,150 @@
                     </div>
                     <!-- table 1 end -->
                     <!-- table 2 -->
-                    <a id="timing" class="list-group-item list-group-item-info list-group-item-action text-dark">
+                    <a id="timing" class="list-group-item list-group-item-info list-group-item-action text-dark"
+                       data-toggle="collapse"
+                       href="#collapseTable2" aria-expanded="false" aria-controls="collapseTable2">
                         <h5>Графік курсів</h5>
                     </a>
 
 
-                    <div>
+                    <div class="collapse" id="collapseTable2">
                         <div class="card card-block">
                             <div class="table-responsive-sm">
                                 <table class="table bg-info text-white table-bordered text-center rounded">
                                     <tbody>
 
                                     <tr>
-                                        <td colspan="3">Бухгалтер в комплексі з 1С: + Головний бухгалтер</td>
+                                        <td colspan="6">Бухгалтер в комплексі з 1С: + Головний бухгалтер</td>
                                     </tr>
                                     <tr>
                                         <td>Дата початку курсу</td>
+                                        <td>Кінець навчання</td>
                                         <td>Години навчання</td>
                                         <td>Дні занять</td>
+                                        <td>Кількість годин</td>
+                                        <td>Термін навчання</td>
                                     </tr>
                                     <tr>
-                                        <td>26 лютого
-                                        </td>
-                                        <td>(09:30-12:30)
-                                        </td>
-                                        <td>Пн, Ср, Пт
-                                        </td>
+                                        <td>5 березня</td>
+                                        <td>20 квітня</td>
+                                        <td>(09:30-12:30)</td>
+                                        <td>Пн, Ср, Пт</td>
+                                        <td>72</td>
+                                        <td>24 заняття по 3 часа</td>
                                     </tr>
                                     <tr>
-                                        <td>26 лютого
-                                        </td>
-                                        <td>(18:30-21:00)
-
-                                        </td>
-                                        <td>Пн, Ср, Пт
-                                        </td>
+                                        <td>5 березня</td>
+                                        <td>11 травня</td>
+                                        <td>(18:30-21:00)</td>
+                                        <td>Пн, Ср, Пт</td>
+                                        <td>72</td>
+                                        <td>29 занять по 2,5 часа</td>
                                     </tr>
                                     <tr>
                                         <td>03 березня</td>
+                                        <td>05 травня</td>
                                         <td>(09:30-13:30)</td>
                                         <td>Суб, Нед</td>
+                                        <td>72</td>
+                                        <td>18 занять по 4 часа</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="3">1С: Бухгалтерія 8</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Дата початку курсу</td>
-                                        <td>Години навчання</td>
-                                        <td>Дні занять</td>
-                                    </tr>
-                                    <tr>
-                                        <td>27 лютого
-                                        </td>
-                                        <td>(09:30-12:30)
-                                        </td>
-                                        <td>Вт, Чт
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>26 лютого</td>
-                                        <td>(13:00-16:00)</td>
-                                        <td>Пн,Вт,Ср,Чт,Пт</td>
-                                    </tr>
-                                    <tr>
-                                        <td>03 березня
-                                        </td>
-                                        <td>(13:30-16:30)</td>
-                                        <td>Суб, Нед</td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="3">1С: Управління торговим підприємством (УТП)</td>
+                                        <td colspan="6">1С: Бухгалтерія 8</td>
                                     </tr>
                                     <tr>
                                         <td>Дата початку курсу</td>
+                                        <td>Кінець навчання</td>
                                         <td>Години навчання</td>
                                         <td>Дні занять</td>
+                                        <td>Кількість годин</td>
+                                        <td>Термін навчання</td>
                                     </tr>
                                     <tr>
-                                        <td>27 лютого</td>
+                                        <td>6 березня</td>
+                                        <td>29 березня</td>
                                         <td>(09:30-12:30)</td>
                                         <td>Вт, Чт</td>
+                                        <td>24</td>
+                                        <td>8 занять по 3 часа</td>
                                     </tr>
                                     <tr>
-                                        <td>26 лютого</td>
+                                        <td>7 березня</td>
+                                        <td>16 березня</td>
                                         <td>(13:00-16:00)</td>
                                         <td>Пн,Вт,Ср,Чт,Пт</td>
+                                        <td>24</td>
+                                        <td>8 занять по 3 часа</td>
                                     </tr>
                                     <tr>
                                         <td>03 березня</td>
+                                        <td>17 березня</td>
                                         <td>(13:30-16:30)</td>
                                         <td>Суб, Нед</td>
+                                        <td>24</td>
+                                        <td>6 занять по 4 часа</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="3">ЗЕД для бухгалтерів</td>
+                                        <td colspan="6">1С: Управління торговим підприємством (УТП)</td>
                                     </tr>
                                     <tr>
                                         <td>Дата початку курсу</td>
+                                        <td>Кінець навчання</td>
                                         <td>Години навчання</td>
                                         <td>Дні занять</td>
+                                        <td>Кількість годин</td>
+                                        <td>Термін навчання</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 березня</td>
+                                        <td>29 березня</td>
+                                        <td>(09:30-12:30)</td>
+                                        <td>Вт, Чт</td>
+                                        <td>24</td>
+                                        <td>8 занять по 3 часа</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7 березня</td>
+                                        <td>16 березня</td>
+                                        <td>(13:00-16:00)</td>
+                                        <td>Пн,Вт,Ср,Чт,Пт</td>
+                                        <td>24</td>
+                                        <td>8 занять по 3 часа</td>
                                     </tr>
                                     <tr>
                                         <td>03 березня</td>
+                                        <td>17 березня</td>
                                         <td>(13:30-16:30)</td>
                                         <td>Суб, Нед</td>
+                                        <td>24</td>
+                                        <td>6 занять по 4 часа</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6">ЗЕД для бухгалтерів</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дата початку курсу</td>
+                                        <td>Кінець навчання</td>
+                                        <td>Години навчання</td>
+                                        <td>Дні занять</td>
+                                        <td>Кількість годин</td>
+                                        <td>Термін навчання</td>
+                                    </tr>
+                                    <tr>
+                                        <td>03 березня</td>
+                                        <td>11 березня</td>
+                                        <td>(13:30-16:30)</td>
+                                        <td>Суб, Нед</td>
+                                        <td>16</td>
+                                        <td>4 занять по 4 часа</td>
                                     </tr>
                                     <tr>
                                         <td>06 березня</td>
+                                        <td>22 березня</td>
                                         <td>(18:30-21:00)</td>
                                         <td>Вт, Чт</td>
+                                        <td>16</td>
+                                        <td>6 занять по 2,5 часа</td>
                                     </tr>
                                     </tbody>
                                 </table>
