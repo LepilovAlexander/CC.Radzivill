@@ -52,11 +52,11 @@
                     <a href="contacts" class="nav-link wow bounceInLeft" data-wow-delay="0.8s">Контакти</a>
                 </li>
             </ul>
-            {{--<form class="form-inline my-2 my-lg-0 wow bounceInRight" data-wow-delay="0.9s">--}}
-            {{--<button type="button" class="btn btn-outline-warning my-2 my-sm-0" data-toggle="modal"--}}
-            {{--data-target="#myModal">Залишити Заявку--}}
-            {{--</button>--}}
-            {{--</form>--}}
+            <form class="form-inline my-2 my-lg-0 wow bounceInRight" data-wow-delay="0.9s">
+            <button type="button" class="btn btn-outline-warning my-2 my-sm-0" data-toggle="modal"
+            data-target="#myModal">Залишити Заявку
+            </button>
+            </form>
         </div>
     </nav>
 </header>

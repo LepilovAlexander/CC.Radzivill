@@ -21,7 +21,7 @@
                 <div class="col-lg-3 wow zoomInLeft" data-wow-offset="50">
                     <h3> Мы у  соцмережах </h3>
                     <ul class="social ">
-                        <li id="faceB"> <a  target="_blank" href="https://www.facebook.com/OlgaRadzivill1"><i class=" fa fa-facebook">   </i> </a> </li>
+                        <li id="faceB"> <a  target="_blank" href="https://www.facebook.com/cc.radzivill/"><i class=" fa fa-facebook">   </i> </a> </li>
                         <li id="skype"> <a href="skype:radzivill777"><i class="fa fa-skype">   </i> </a>
 
                             <div id="SkypeButton_Call_radzivill777_1">

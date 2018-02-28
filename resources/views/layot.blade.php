@@ -7,14 +7,14 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href='img/icon.png' type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
 </head>
 <body>
 <!-- *****************Header************** -->
 @include('layots.header')
- {{----------------------sendmail modal window-------------------}}
+{{----------------------sendmail modal window-------------------}}
 @include('layots.mail')
-
 <!-- ***************content****************************** -->
 <main>
 
@@ -22,7 +22,10 @@
 
 </main>
 <!-- ******************footer************************ -->
+
 @include('layots.footer')
+
+{{--connections//////////////////////////--}}
 
 <link rel="stylesheet" href='css/style.css'>
 
